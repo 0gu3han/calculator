@@ -1,0 +1,30 @@
+
+.bg-green {
+    background-color: #008000;
+    width: 500px;
+    height: 600px;
+    padding: 50px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.red-box{
+    background-color: red;
+    width: 120px;
+    height: 120px;
+}
+
+.blue-box{
+    background-color: blue;
+    width: 120px;
+    height: 120px;
+}
+
+.black-box{
+    background-color: black;
+    width: 120px;
+    height: 120px;
+}
