@@ -1,30 +1,68 @@
-
-.bg-green {
-    background-color: #008000;
-    width: 500px;
-    height: 600px;
-    padding: 50px;
-    margin: 20px;
+.calculator-container {
+    font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    margin: 0;
+  }
+
+.calculator {
+  background-color: #333;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  width: 320px;
+  padding: 20px;
 }
 
-.red-box{
-    background-color: red;
-    width: 120px;
-    height: 120px;
+.display {
+  background-color: #000;
+  color: #fff;
+  font-size: 2rem;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: right;
+  margin-bottom: 20px;
 }
 
-.blue-box{
-    background-color: blue;
-    width: 120px;
-    height: 120px;
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 73px);
+  gap: 10px;
 }
 
-.black-box{
-    background-color: black;
-    width: 120px;
-    height: 120px;
+.button {
+  background-color: #555;
+  color: white;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 50%;
+  padding: 20px;
+  text-align: center;
+  
+  transition: background-color 0.2s;
+}
+
+.button:active {
+  background-color: #777;
+}
+
+.button_operator {
+  background-color: #f39c12;
+  border-radius: 50%;
+  color: white;
+  font-size: 1.5rem;
+  border: none;
+}
+
+.button_operator:active {
+  background-color: #d35400;
+}
+
+.button_zero {
+  grid-column: span 2;
+  border-radius: 40%;
+  background-color: #555;
+  color: white;
+  font-size: 1.5rem;
+  border: none;
 }
